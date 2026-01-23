@@ -42,6 +42,7 @@ public:
                 stack.push(c);
             }
         }
-        return stack.empty();
+
+        return s.empty();
     }
 };
